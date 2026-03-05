@@ -71,8 +71,10 @@ video {
 }
 
 .perte-btn, .esplora-btn, .seguiti-btn {
-	font-size: 15px;
-	color:lightgray
+	font-size: 13px;
+	color:rgba(211, 211, 211, 0.507);
+	font-weight: 600;
+	transition: color 0.2s ease, border 0.2s ease;
 }
 
 .play-btn, .search-btn{
@@ -82,6 +84,25 @@ video {
 
 .search-btn{
 	text-align: right;
+}
+
+.perte-btn:hover, .esplora-btn:hover, .seguiti-btn:hover{
+	border-bottom: 3px solid rgb(255, 255, 255);
+	color: white;
+	
+}
+.seguiti-btn{
+	position: relative;
+}
+
+.seguiti-btn::after{
+	content: "\1F534";
+	display: block;
+	position: absolute;
+	font-size: 5px;
+	top: -3px;
+	right: 0;
+	transform: translateX(100%);
 }
 
 /* Footer */
