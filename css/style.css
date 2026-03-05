@@ -89,13 +89,11 @@ da rimuovere una volta concluso
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: flex-end;
 }
 
 .socials-btn{
 	display: flex;
 	flex-direction: row;
-	align-items: center;
 	justify-content: space-evenly;
 }
 
@@ -106,9 +104,23 @@ da rimuovere una volta concluso
 	align-items:center;
 }
 
-.img-profilo{
+.img-profile{
 	border-radius: 50%;
 	width: 40px;
 	aspect-ratio:auto 1;
 	border: 2px solid white;
+}
+
+.footer-btn{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: black;
+	min-height: 50px;
+	text-align:center;
+}
+
+.d-block{
+	display: block;
 }
