@@ -49,6 +49,10 @@ footer {
 	le tue regole, se necessario. */
 }
 
+.ruota-icona {
+	display: inline-block;
+	transform: rotate(90deg);
+}
 /* Sidebar */
 .sidebar {
 	padding: 0 16px;
