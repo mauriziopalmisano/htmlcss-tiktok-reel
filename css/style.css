@@ -48,17 +48,41 @@ video {
 	le tue regole, se necessario. */
 }
 .header-btn{
-	display: flex;
+	display:flex;
 	flex-direction: row;
 	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	
+}
+
+.header-btn > * {
+	width: calc(100% / 3);
+	padding: 10px;
 }
 
 .socials-btn{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	width: 60%;
+	align-items: center;
+	text-align: center;
 }
 
+.perte-btn, .esplora-btn, .seguiti-btn {
+	font-size: 15px;
+	color:lightgray
+}
+
+.play-btn, .search-btn{
+	font-size: 20px;
+	color: white;
+}
+
+.search-btn{
+	text-align: right;
+}
 
 /* Footer */
 
