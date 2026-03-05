@@ -139,9 +139,29 @@ footer {
 	transition: color 0.25s ease;
 }
 
+.chat-btn{
+	position: relative;
+}
+
+.chat-btn::after{
+	content: "19";
+	position: absolute;
+	top: 5px;
+	right:15px;
+	transform: translateY(-60%);
+	font-size: 8px;
+	background-color: rgb(165, 5, 5);
+	border-radius:40%;
+	display: inline-block;
+	width: 15px;
+	height: 10px;
+	color: rgba(255, 255, 255, 0.904);
+}
+
 .text-footer{
 	font-size: 8px;
 }
+
 
 .ruota-icona {
 	display: inline-block;
