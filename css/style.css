@@ -3,18 +3,6 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-/* utility*/
-.d-block{
-	display: block;
-}
-
-.size-sb{
-	font-size: 28px;
-}
-
-.text-sb{
-	font-size:12px;
-}
 
 
 body {
@@ -31,7 +19,8 @@ video {
 }
 
 .reel-page {
-	height: 100vh; /* ti incuriosisce? */
+	height: 100vh;
+	/* ti incuriosisce? */
 	max-width: 512px;
 	min-width: 400px;
 	position: relative;
@@ -47,21 +36,22 @@ video {
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 }
-.header-btn{
-	display:flex;
+
+.header-btn {
+	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
-	
+
 }
 
-.header-btn > * {
+.header-btn>* {
 	width: calc(100% / 3);
 	padding: 10px;
 }
 
-.socials-btn{
+.socials-btn {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -70,32 +60,38 @@ video {
 	text-align: center;
 }
 
-.perte-btn, .esplora-btn, .seguiti-btn {
+.perte-btn,
+.esplora-btn,
+.seguiti-btn {
 	font-size: 13px;
-	color:rgba(211, 211, 211, 0.507);
+	color: rgba(211, 211, 211, 0.507);
 	font-weight: 600;
 	transition: color 0.2s ease, border 0.2s ease;
 }
 
-.play-btn, .search-btn{
+.play-btn,
+.search-btn {
 	font-size: 20px;
 	color: white;
 }
 
-.search-btn{
+.search-btn {
 	text-align: right;
 }
 
-.perte-btn:hover, .esplora-btn:hover, .seguiti-btn:hover{
+.perte-btn:hover,
+.esplora-btn:hover,
+.seguiti-btn:hover {
 	border-bottom: 3px solid rgb(255, 255, 255);
 	color: white;
-	
+
 }
-.seguiti-btn{
+
+.seguiti-btn {
 	position: relative;
 }
 
-.seguiti-btn::after{
+.seguiti-btn::after {
 	content: "\1F534";
 	display: block;
 	position: absolute;
@@ -117,52 +113,58 @@ footer {
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 }
-.footer-btn{
+
+.footer-btn {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
 	background-color: black;
 	min-height: 50px;
-	text-align:center;
-	color:rgba(211, 211, 211, 0.705)
+	text-align: center;
+	color: rgba(211, 211, 211, 0.705)
 }
-.des-title, .des-text{
+
+.des-title,
+.des-text {
 	font-size: 12px;
 	text-align: left;
 	padding-right: 40%;
 	padding-bottom: 10px;
 }
 
-.home-btn:hover, .friends-btn:hover, .chat-btn:hover, .uprofile-btn:hover{
+.home-btn:hover,
+.friends-btn:hover,
+.chat-btn:hover,
+.uprofile-btn:hover {
 	color: white;
 	transition: color 0.25s ease;
 }
 
-.chat-btn{
+.chat-btn {
 	position: relative;
 }
 
-.chat-btn::after{
+.chat-btn::after {
 	content: "19";
 	position: absolute;
 	top: 5px;
-	right:15px;
+	right: 15px;
 	transform: translateY(-60%);
 	font-size: 8px;
 	background-color: rgb(165, 5, 5);
-	border-radius:40%;
+	border-radius: 40%;
 	display: inline-block;
 	width: 15px;
 	height: 10px;
 	color: rgba(255, 255, 255, 0.904);
 }
 
-.text-footer{
+.text-footer {
 	font-size: 8px;
 }
 
-.publish-btn{
+.publish-btn {
 	display: block;
 	width: 40px;
 	height: 25px;
@@ -170,16 +172,16 @@ footer {
 	color: rgb(0, 0, 0);
 	background-color: white;
 	border-radius: 20%;
-	position:relative;
+	position: relative;
 	margin-bottom: 5px;
-	border-right:3px solid rgb(219, 6, 209);
-	border-left:3px solid rgb(17, 239, 255) ;
+	border-right: 3px solid rgb(219, 6, 209);
+	border-left: 3px solid rgb(17, 239, 255);
 }
 
 .publish-btn i {
 	position: absolute;
 	top: 0;
-	right: 0;
+	right: -5%;
 	font-size: 20px;
 	transform: translateX(-50%);
 }
@@ -194,37 +196,73 @@ footer {
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 }
-.actions-btn{
+
+.actions-btn {
 	display: flex;
-	flex-direction: column;;
-	align-items:center;
+	flex-direction: column;
+	;
+	align-items: center;
 	color: white;
 	text-align: center;
-	gap: 10px;
+	gap: 20px;
 }
 
-.img-profile{
-	border-radius: 50%;
+.profile-btn {
+	position: relative;
 	width: 40px;
-	aspect-ratio:auto 1;
+	height: 40px;
+}
+
+.img-profile {
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+	aspect-ratio: auto 1;
 	border: 2px solid white;
 }
 
+.dot {
+	position: absolute;
+	bottom: -5px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 15px;
+	height: 15px;
+	background: #ff2c55;
+	color: white;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.text-sb {
+	font-size: 10px;
+}
+
+.like-btn,
+.comment-btn,
+.save-btn,
+.send-btn {
+	font-size: 20px;
+}
 
 /* ---------------------
 Regole per evidenziare i blocchi 
 da rimuovere una volta concluso
 --------------------- */
-.debug footer {
+/* .debug footer {
 	min-height: 100px;
 	border: 2px dashed #fff;
-}
+} */
 
-.debug .sidebar {
+/* .debug .sidebar {
 	min-width: 80px;
 	min-height: 450px;
 	border: 2px dashed #ff0;
-}
+} */
 
 /* .debug .reel-header {
 	min-height: 50px;
@@ -232,10 +270,3 @@ da rimuovere una volta concluso
 } */
 
 /* --------------------- */
-
-
-
-
-
-
-
