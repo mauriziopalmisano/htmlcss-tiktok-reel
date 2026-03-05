@@ -3,6 +3,19 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+/* utility*/
+.d-block{
+	display: block;
+}
+
+.size-sb{
+	font-size: 28px;
+}
+
+.text-sb{
+	font-size:12px;
+}
+
 
 body {
 	margin: 0 auto;
@@ -34,6 +47,18 @@ video {
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 }
+.header-btn{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.socials-btn{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
 
 /* Footer */
 
@@ -46,6 +71,15 @@ footer {
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+}
+.footer-btn{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: black;
+	min-height: 50px;
+	text-align:center;
 }
 
 .ruota-icona {
@@ -62,6 +96,22 @@ footer {
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 }
+.actions-btn{
+	display: flex;
+	flex-direction: column;;
+	align-items:center;
+	color: white;
+	text-align: center;
+	gap: 10px;
+}
+
+.img-profile{
+	border-radius: 50%;
+	width: 40px;
+	aspect-ratio:auto 1;
+	border: 2px solid white;
+}
+
 
 /* ---------------------
 Regole per evidenziare i blocchi 
@@ -85,42 +135,9 @@ da rimuovere una volta concluso
 
 /* --------------------- */
 
-.header-btn{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
 
-.socials-btn{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-}
 
-.actions-btn{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-	align-items:center;
-}
 
-.img-profile{
-	border-radius: 50%;
-	width: 40px;
-	aspect-ratio:auto 1;
-	border: 2px solid white;
-}
 
-.footer-btn{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	align-items: center;
-	background-color: black;
-	min-height: 50px;
-	text-align:center;
-}
 
-.d-block{
-	display: block;
-}
+
