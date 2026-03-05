@@ -125,6 +125,22 @@ footer {
 	background-color: black;
 	min-height: 50px;
 	text-align:center;
+	color:rgba(211, 211, 211, 0.705)
+}
+.des-title, .des-text{
+	font-size: 12px;
+	text-align: left;
+	padding-right: 40%;
+	padding-bottom: 10px;
+}
+
+.home-btn:hover, .friends-btn:hover, .chat-btn:hover, .uprofile-btn:hover{
+	color: white;
+	transition: color 0.25s ease;
+}
+
+.text-footer{
+	font-size: 8px;
 }
 
 .ruota-icona {
@@ -173,10 +189,10 @@ da rimuovere una volta concluso
 	border: 2px dashed #ff0;
 }
 
-.debug .reel-header {
+/* .debug .reel-header {
 	min-height: 50px;
 	border: 2px dashed #fff;
-}
+} */
 
 /* --------------------- */
 
