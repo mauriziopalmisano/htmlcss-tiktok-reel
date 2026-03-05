@@ -26,8 +26,8 @@ video {
 
 .reel-header {
 	position: absolute;
-	/* align-items: center;
-	justify-content: space-between; */
+	align-items: center;
+	justify-content: space-between;
 	top: 0;
 	left: 0;
 	right: 0;
@@ -89,12 +89,26 @@ da rimuovere una volta concluso
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-content: center;
+	align-items: flex-end;
 }
 
 .socials-btn{
 	display: flex;
 	flex-direction: row;
-	align-content: center;
+	align-items: center;
 	justify-content: space-evenly;
+}
+
+.actions-btn{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items:center;
+}
+
+.img-profilo{
+	border-radius: 50%;
+	width: 40px;
+	aspect-ratio:auto 1;
+	border: 2px solid white;
 }
