@@ -26,12 +26,11 @@ video {
 
 .reel-header {
 	position: absolute;
-	align-items: center;
-	justify-content: space-between;
+	/* align-items: center;
+	justify-content: space-between; */
 	top: 0;
 	left: 0;
 	right: 0;
-
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 }
@@ -85,3 +84,17 @@ da rimuovere una volta concluso
 }
 
 /* --------------------- */
+
+.header-btn{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.socials-btn{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: space-evenly;
+}
