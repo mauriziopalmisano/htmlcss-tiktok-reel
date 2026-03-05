@@ -162,11 +162,28 @@ footer {
 	font-size: 8px;
 }
 
-
-.ruota-icona {
-	display: inline-block;
-	transform: rotate(90deg);
+.publish-btn{
+	display: block;
+	width: 40px;
+	height: 25px;
+	font-size: 25px;
+	color: rgb(0, 0, 0);
+	background-color: white;
+	border-radius: 20%;
+	position:relative;
+	margin-bottom: 5px;
+	border-right:3px solid rgb(219, 6, 209);
+	border-left:3px solid rgb(17, 239, 255) ;
 }
+
+.publish-btn i {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 20px;
+	transform: translateX(-50%);
+}
+
 /* Sidebar */
 .sidebar {
 	padding: 0 16px;
